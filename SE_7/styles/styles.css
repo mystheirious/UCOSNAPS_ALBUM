@@ -1,0 +1,46 @@
+body {
+	font-family: "Arial";
+	background-color: #FFFFF0;
+}
+input {
+	font-size: 1.5em;
+	height: auto;
+	width: 100%;
+}
+table, th, td {
+	border:1px solid black;
+}
+
+tr {
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+.album-container {
+	margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.edit-delete-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.photo-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	margin-top: 20px;
+}
+.photo-container {
+	background-color: ghostwhite;
+	border: 1px solid gray;
+	padding: 10px;
+	width: 20%;
+}
+.photo-description {
+	padding: 10px;
+}
